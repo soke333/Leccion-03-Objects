@@ -1,13 +1,12 @@
 function crearTablero() {
-
-    let tablero = {
-        jugador1: 0,
-        jugador2: 0
+    return {
+        "Harry": 300,
+        "Luna": 280,
+        "Cedric": 270
     };
-    
-    return tablero;
 }
 
 
-let tableroInicial = crearTablero();
-console.log(tableroInicial); 
+let tablero = crearTablero();
+console.log(tablero);
+
