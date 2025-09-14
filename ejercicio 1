@@ -1,0 +1,13 @@
+function crearTablero() {
+
+    let tablero = {
+        jugador1: 0,
+        jugador2: 0
+    };
+    
+    return tablero;
+}
+
+
+let tableroInicial = crearTablero();
+console.log(tableroInicial); 
